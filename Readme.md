@@ -21,11 +21,25 @@ Among the nice things that a compilation through LaTeX brings:
 How it works
 ------------
 
-First, create a new Git repository by cloning or downloading this project.
+First, create a new Git repository by cloning or downloading this project. Settings, Integrations & services
 
 Go to GitBook, and click on the "New Book" button. In the available options, select "GitHub".
 
+## If GitBook is not installed in your GitHub account
+
+Click on the button  "Install GitHub integration".
+
 ![GitBook screenshot](gitbook-create-github.png?raw=true)
+
+You will be directed to GitHub to install GitBook. Tick the option "Only select repositories", and then pick the repository you've just created. Then click on "Install".
+
+![GitBook screenshot](github-integration.png?raw=true)
+
+## Once GitBook is installed in your GitHub account
+
+Go back to GitBook, and type in the basic info about your book. Select the GitHub repository you've just linked with GitBook.
+
+![GitBook screenshot](gitbook-create.png?raw=true)
 
 Complete customization on the book's template can be done by fiddling with the LaTeX class, `gitbook.cls`.
 
