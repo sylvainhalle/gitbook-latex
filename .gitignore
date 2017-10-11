@@ -1,0 +1,8 @@
+# Don't version the auto-generated LaTeX sources...
+latex/chapters/
+
+# Temporary files
+*~
+*.tmp
+*.bak
+.DS_Store
