@@ -1,4 +1,4 @@
 {
-  root     : "markdown",
-  language : "en"
+  "root"     : "markdown",
+  "language" : "en"
 }
