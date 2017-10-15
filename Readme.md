@@ -1,5 +1,5 @@
-GitBeX: Documentation that works with GitBook and LaTeX
-=======================================================
+GitBook-LaTeX: Documentation that works with GitBook and LaTeX
+==============================================================
 
 If you write technical documentation (or just plain books), [GitBook](https://gitbook.com) is a powerful tool that can turn a simple set of Markdown files into an indexed and searchable website. What's more, GitBook offers options to automatically export this documentation into various formats, such as PDF or eBook.
 
@@ -33,13 +33,11 @@ First, create a new Git repository by cloning or downloading this project.
 
 Then, go to GitBook, and click on the "New Book" button. In the available options, select "GitHub".
 
-### Install GitHub integration
-
-Click on the button  "Install GitHub integration".
-
 ![GitBook screenshot](gitbook-create-github.png?raw=true)
 
-You will be directed to GitHub to install GitBook. Tick the option "Only select repositories", and then pick the repository you've just created. Then click on "Install".
+### Install GitHub integration
+
+Click on the button  "Install GitHub integration". You will be directed to GitHub to install GitBook. Tick the option "Only select repositories", and then pick the repository you've just created. Then click on "Install".
 
 ![GitBook screenshot](github-integration.png?raw=true)
 
@@ -130,5 +128,10 @@ This hack has a few caveats:
 - No spaces are allowed before `\index` in the first comment
 - The second comment must appear as is (i.e. no spaces)
 - If a Markdown file contains the literal string `GPGP\index`, it will be converted into an index term (not very likely to happen, though!)
+
+About the author
+----------------
+
+This project is developed and maintained by [Sylvain Hallé](http://leduotang.ca/sylvain), Associate Professor at [Université du Québec à Chicoutimi](http://www.uqac.ca), Canada.
 
 <!-- :wrap=soft:maxLineLen=80: -->
