@@ -1,5 +1,24 @@
 # Don't version the auto-generated LaTeX sources...
 latex/chapters/
+latex/all.temp.*
+latex/*.md
+latex/body.tex
+latex/README.tex
+latex/Readme.tex
+latex/pandoc.inc.tex
+
+
+# Don't version temporary files
+latex/book.pdf
+latex/**/*.aux
+latex/**/*.log
+latex/**/*.out
+latex/**/*.bbl
+latex/**/*.bbl
+latex/**/*.toc
+latex/**/*.idx
+latex/**/*.ilg
+latex/**/*.ind
 
 # Temporary files
 *~

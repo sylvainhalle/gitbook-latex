@@ -2,26 +2,17 @@
 % A simple LaTeX book template
 % -------------------------------------------------------------------
 \documentclass{gitbook}
-% \usepackage[paperwidth=5.5in,paperheight=8.5in,outer=0.75cm,inner=1.25cm,top=1.75cm,bottom=0.75cm]{geometry}
-% \usepackage{microtype}
-% \usepackage[english]{babel}
 \usepackage{import}
-%\usepackage[sfdefault,condensed]{cabin}
-%\usepackage[scaled]{beramono}
-%\usepackage{bookman}
-%\usepackage[T1]{fontenc}
-%\usepackage{makeidx}
-%\makeindex
-%\setcounter{tocdepth}{1}
-%\usepackage{pandora}
-\renewcommand{\ttdefault}{fvm} % Bera Mono
+
+% Generate an index
+\makeindex
 
 % ---------------------------------------
 % The gitbook-pandoc script will generate a file
 % called pandoc.inc.tex, which contains many declarations
 % required to compile the book.
 % ---------------------------------------
-\input{pandoc.inc.2.tex}
+\input{pandoc.inc.tex}
 
 % ---------------------------------------
 % Title and author
