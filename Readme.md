@@ -124,6 +124,7 @@ Temporibus autem \index{foo} quibusdam et aut officiis...
 
 This hack has a few caveats:
 
+- Due to a [bug in GitBook](https://github.com/GitbookIO/gitbook/issues/2133), you cannot start a paragraph with an HTML comment. (Look out, this completely breaks the rendering.)
 - The opening and closing comments must be on the same line
 - No spaces are allowed before `\index` in the first comment
 - The second comment must appear as is (i.e. no spaces)
