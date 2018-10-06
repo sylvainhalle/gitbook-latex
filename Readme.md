@@ -133,6 +133,6 @@ This hack has a few caveats:
 About the author
 ----------------
 
-This project is developed and maintained by [Sylvain Hallé](http://leduotang.ca/sylvain), Associate Professor at [Université du Québec à Chicoutimi](http://www.uqac.ca), Canada.
+This project is developed and maintained by [Sylvain Hallé](http://leduotang.ca/sylvain), Full Professor at [Université du Québec à Chicoutimi](http://www.uqac.ca), Canada.
 
 <!-- :wrap=soft:maxLineLen=80: -->
